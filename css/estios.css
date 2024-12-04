@@ -1,7 +1,7 @@
 *{
-    margin: 0;
-    padding: 0;
-    font-family: calibri;
+    margin:0;
+    padding:0;
+    font-family:calibri;
     list-style: none;
     text-decoration: none;
 }
@@ -9,9 +9,9 @@ img{
     max-width: 100%;
 }
 header{
-    width: 90%;
-    margin: 0 auto;
-    display: flex;
+    width:90%;
+    margin:0 auto;
+    display:flex;
     align-items: center;
     justify-content: space-between;
 }
@@ -27,19 +27,19 @@ nav{
     float: right;
 }
 nav a{
-    color: #808080;
+    color:#808080;
     text-transform: uppercase;
     display: inline;
     padding: 7px 15px;
     margin: 0 10px;
-    transition: 0.5s ease-in-out;
+    transition: background-color 0.5s ease-in-out;
 }
 nav a:hover{
-    color: #FFF;
-    background-color: #378982;
+    color:#FFF;
+    background-color: #3789B2;
 }
 .banner{
-    display: flex;
+    display:flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 40px;
@@ -47,28 +47,28 @@ nav a:hover{
 .quem-somos{
     width: 70%;
     margin: 0 auto;
-    display: flex;
+    display:flex;
     flex-wrap: wrap;
     text-align: justify;
     justify-content: center;
 }
 .quem-somos .titulo{
     font-family: "Roboto";
-    font-size:1.4em;
+    font-size: 1.4em;
     color: #808080;
     margin-bottom: 20px;
     font-weight: 500;
 }
-.quem-somos .texto{
+.quem-somos p{
     font-family: "Montserrat";
-    color: #378982;
+    color: #3789B2;
     margin-bottom: 10px;
     font-weight: 500;
 }
 .quem-somos span{
     font-family: "Montserrat";
     font-size: 1.2em;
-    color: #808080;
+    color:#808080;
     margin-bottom: 10px;
     font-weight: 600;
     margin-bottom: 40px;
@@ -84,17 +84,17 @@ nav a:hover{
 }
 .titulo-bloco-servicos{
     width: 80%;
-    display: flex;
+    display:flex;
     text-align: center;
 }
-.borda-esquerda, borda-direita{
+.borda-esquerda, .borda-direita{
     width: 35%;
     padding-top: 15px;
 }
 .servicos h2{
     width: 30%;
     text-transform: uppercase;
-    color: #808080;
+    color:#808080;
 }
 .bloco-servicos{
     width: 300px;
@@ -130,7 +130,7 @@ nav a:hover{
     align-items: center;
     justify-content: center;
     margin-top: 10px;
-    background-color: #378982;
+    background-color: #3789B2;
 }
 form{
     display: flex;
@@ -138,7 +138,7 @@ form{
     width: 30%;
     padding: 10px 20px;
 }
-form input, textarea{
+form input, form textarea{
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 5px;
@@ -147,11 +147,11 @@ form input, textarea{
     outline: none;
     margin: 3px 0;
 }
-form button {
+form button{
     cursor: pointer;
     padding: 10px 100px;
-    font-size: 1rem;
-    color: #fff;
+    font-size: 1em;
+    color: #FFF;
     background-color: #808080;
     border: none;
     border-radius: 5px;
@@ -159,7 +159,7 @@ form button {
     margin: 3px 0;
 }
 form button:hover{
-    background-color:#CCC;
+    background-color: #CCC;
     color: #808080;
 }
 .contato a{
@@ -177,13 +177,13 @@ form button:hover{
     width: 36px;
     padding: 0 10px 0 0;
 }
-footer {
+footer{
     background-color: #808080;
     padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #fff;
+    color: #FFF;
     font-size: 0.7em;
     font-family: "Montserrat";
 }
